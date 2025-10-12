@@ -1,7 +1,8 @@
 import torch
 import random
 
-def create_training_instance(sent_A, sent_B, is_next_label, tokenizer, max_len):
+def create_training_instance(
+                    sent_A, sent_B, is_next_label, tokenizer, max_len):
     """
     Creates a single training instance for BERT pre-training.
     
